@@ -1,0 +1,5 @@
+client_id,booking_date,room_type,hotel_id,booking_cost,currency
+1,2023-09-21T20:00:00,standard_3_bed,3,2910.0,GBP
+2,2023-09-21T20:00:00,standard_2_bed,2,1700.0,GBP
+5,2023-09-21T20:00:00,balcony_2_bed,1,1100.0,EUR
+

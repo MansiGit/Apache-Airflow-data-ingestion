@@ -1,0 +1,19 @@
+PS E:\Manu Files\Projects\Apache-Airflow-main\airflow-minimal\docker-sequencial-mysql> docker-compose  up airflow-init
+[+] Running 26/2
+ ✔ airflow-init 13 layers [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿]      0B/0B      Pulled                                                                                                                          303.3s 
+ ✔ mysql 11 layers [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿]      0B/0B      Pulled                                                                                                                                   179.7s 
+[+] Running 4/4
+ ✔ Network docker-sequencial-mysql_default           Created                                                                                                                                0.1s 
+ ✔ Volume "docker-sequencial-mysql_my-db"            Created                                                                                                                                0.0s 
+ ✔ Container docker-sequencial-mysql-mysql-1         Created                                                                                                                                0.1s 
+ ✔ Container docker-sequencial-mysql-airflow-init-1  Created                                                                                                                                0.1s 
+Attaching to docker-sequencial-mysql-airflow-init-1
+dependency failed to start: container docker-sequencial-mysql-mysql-1 is unhealthy
+
+
+docker-sequential-mysql-airflow-webserver-1  |   ____________       _____________
+docker-sequential-mysql-airflow-webserver-1  |  ____    |__( )_________  __/__  /________      __
+docker-sequential-mysql-airflow-webserver-1  | ____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+docker-sequential-mysql-airflow-webserver-1  | ___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+docker-sequential-mysql-airflow-webserver-1  |  _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+docker-sequential-mysql-airflow-webserver-1  | [2023-09-23 16:41:52,552] {dagbag.py:496} INFO - Filling up the DagBag from /dev/null
