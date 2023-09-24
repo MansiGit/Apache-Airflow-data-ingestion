@@ -6,7 +6,8 @@
 ## Introduction:
 I've created this project to demo a real-time data ingestion pipeline using Apache Airflow. Details:
 1. Set up Airflow and SQLite database using Docker
-2. Use Python airflow library to write a DAG to transform & load data from a csv to a Sqlite table in real time
+2. Use Python airflow library to write a DAG to transform & load data from a csv to a Sqlite table.
+3. Scheduled the DAG to run every 1 hr to pick up new data.
 
 ## DAG Details
 ### Transform raw data:
