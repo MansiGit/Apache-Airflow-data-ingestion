@@ -4,7 +4,7 @@
 # Airflow Data ingestion pipeline
 
 ## Introduction:
-I've created this project to demo a data ingestion pipeline using Apache Airflow. Details:
+I've created this project to demo a batch data ingestion pipeline using Apache Airflow. Details:
 1. Set up Airflow and SQLite database using Docker
 2. Use Python airflow library to write a DAG to transform & load data from a csv to a Sqlite table.
 3. Scheduled the DAG to run every 1 hr to pick up new data.
